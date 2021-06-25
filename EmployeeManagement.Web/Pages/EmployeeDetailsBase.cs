@@ -22,7 +22,7 @@ namespace EmployeeManagement.Web.Pages
         protected string CssClass { get; set; } = null;
 
 
-    [Parameter]
+        [Parameter]
         public string Id { get; set; }
 
         protected async override Task OnInitializedAsync()
